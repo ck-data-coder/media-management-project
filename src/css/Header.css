@@ -1,0 +1,132 @@
+/* General header styles */
+.web-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 16px;
+}
+
+.logo-name{
+  font-size: 24px;
+  margin: 0;
+  color: #ecf0f1;
+}
+
+/* Navigation menu styles */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Makes the navigation menu grow to fill available space */
+}
+
+.nav-menu a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+}
+
+.nav-menu .service {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #3498db;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* Ensures "Add Product" is on the same line */
+  white-space: nowrap; /* Prevents text wrapping */
+}
+
+.nav-menu h1:hover {
+  background-color: #2980b9;
+}
+
+/* Search form and logout alignment */
+.container-fluid {
+  display: flex;
+  justify-content: flex-end; /* Aligns search and logout to the right */
+  align-items: center;
+  margin-left: auto; /* Ensures it aligns to the right of the screen */
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input {
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 200px;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+.search-form input:focus {
+  outline: none;
+  background-color: #ffffff;
+}
+
+.search-form .form-control::placeholder {
+  color: #95a5a6;
+}
+
+.logout-button {
+  padding: 8px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-menu {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .nav-menu h1 {
+    margin-bottom: 10px;
+  }
+
+  .search-form input {
+    width: 150px;
+  }
+
+  /* Center-align search and logout on mobile */
+  .container-fluid {
+    margin-left: 0;
+    margin-top: 10px;
+    justify-content: center;
+  }
+}

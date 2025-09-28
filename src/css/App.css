@@ -1,0 +1,70 @@
+
+.container-header{
+  background-color: rgb( 252, 252, 252);
+  height: 16vh;
+  margin: 0px;
+  max-width: 100%;
+  position: sticky ;
+  top: 0px;
+}
+.logo{
+  height: 9vh;
+  width: 6vw;
+  float: left;
+  margin-top: 25px;
+}
+.container-header h1{
+  display: inline;
+  font-size: 3vw;
+  font-family:emoji ;
+  margin-top: 2.5%;
+  float: left;
+  margin-left: 2%;
+}
+.login-signup{
+  margin-top: 35px;
+  margin-right: 10px;
+  float: right;
+  font-size: 1vw;
+}
+.more-info{
+   height:95vh;
+  width: 98.5vw;
+  background-color: rgb(250, 247, 247);
+  max-width: 100%;
+}
+.col-data{
+  margin-top: 16%;
+}
+.col-data h1{
+  margin-left: 5%;
+}
+
+.why-sales-panel h1{
+  margin-top: 5%;
+  font-family: emoji;
+  font-size: 3vw;
+  margin-left: 5vw;
+  margin-bottom: 5%;
+}
+
+.why-sales-panel-photos{
+  height: 10%;
+  width: 10%;
+  top: 0px;
+  margin-right: 100%;
+}
+.why-sales-panel h3{
+  margin-right: 8%;
+  margin-top: 3%;
+  text-align: left;
+}
+.container1{
+  margin-bottom: 5%;
+}
+.why-sales-panel p{
+  text-align: left;
+}
+.why-sales-panel .container .col{
+  margin-right: 5%;
+} 

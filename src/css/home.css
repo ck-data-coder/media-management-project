@@ -1,0 +1,93 @@
+.home-top-view{
+    width: 100%;
+    height: 500px;
+    background-image: url('../photos/blueimg.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.banner-image{
+    width: 500px;
+    height: 250px;
+    position: relative;
+    left: 59%;
+    top: 20%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 70px;
+}
+
+.banner-heading{
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+}
+
+.category-display{
+    padding-left: 5%;
+    height: auto;
+    width: 100%;
+background-color: rgb(254 254 254);
+}
+
+.home-down-view{
+    background-image: url('https://m.media-amazon.com/images/G/01/sell/images/illustration/pf-wave-horizon-1.svg');
+    height: 500px;
+    margin-top: 20%;
+    margin-bottom: -10%;
+}
+.seller-desk-img{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 20%;
+    left: 6%;
+}
+
+.home-down-view-heading{
+    font-weight: bold;
+    position: relative;
+    top: 30%;
+    padding-left: 5%;
+    display: inline-block;
+}
+
+.home-down-view-heading h2{
+    text-align: start;
+    width: 500px;
+   
+}
+.else-category-heading{
+   position: relative;
+   left: 38%;
+}
+
+.else-category-button{
+    display: inline-block;
+    /* width: 100%; */
+    /* margin: auto; */
+    padding: 2%;
+    border-radius: 9%;
+    position: relative;
+    left: 40%;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    background-color: #3498db;
+    border: none;
+}
+.else-category-button:hover {
+    background-color: #2980b9;
+  }
+
+  .analytics{
+  padding-top: 60px;
+  padding-left: 5%;
+  height: auto;
+  width: 100%;
+background-color: rgb(254 254 254);
+  }

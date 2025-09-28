@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+}
+.product-container{
+    display: inline-block;
+   
+    width: 170px;
+    height: auto;
+    margin: 10px;
+    margin-top: 30px;
+    cursor :pointer;
+}
+
+
+.product-image{
+    display: block;
+}
+.product-data{
+    box-sizing: border-box;
+    color: rgb(0, 113, 133);
+    width: 100%;
+cursor :pointer;
+font-family :"Amazon Ember", Arial, sans-serif;
+font-size :14px;
+height :auto;
+letter-spacing: normal;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type :none;
+overflow-wrap: break-word;
+text-wrap: wrap;
+unicode-bidi: isolate;
+white-space-collapse: collapse;
+text-align: left;
+text-size-adjust :100%;
+white-space-collapse: collapse;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 4;
+display: -webkit-box;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.discount{
+    background-color: rgb(204, 12, 57);
+border-bottom-left-radius :2px;
+border-bottom-right-radius: 2px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor :pointer;
+font-family: "Amazon Ember", Arial, sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+height: 24px;
+line-height: 12px;
+list-style-image: none;
+list-style-position :outside;
+list-style-type: none;
+min-width: fit-content;
+overflow-wrap: break-word;
+padding-bottom: 4px;
+padding-left: 6px;
+padding-right: 6px;
+padding-top: 4px;
+text-align: left;
+text-size-adjust: 100%;
+text-transform :none;
+text-wrap :nowrap;
+unicode-bidi :isolate;
+white-space-collapse: collapse;
+width :55.9271px;
+}
+.discount-deal{
+    box-sizing :border-box;
+color: rgb(204, 12, 57);
+cursor: pointer;
+display: inline;
+font-family: "Amazon Ember", Arial, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+height :auto;
+margin-left: 2%;
+line-height: 16px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+overflow-wrap: break-word;
+text-align: left;
+text-size-adjust: 100%;
+text-transform: none;
+text-wrap: nowrap;
+white-space-collapse: collapse;
+width :auto;
+
+}
+.price{
+    box-sizing: border-box;
+color: rgb(15, 17, 17);
+cursor: pointer;
+margin-top: 3%;
+display: inline;
+font-family :"Amazon Ember", Arial, sans-serif;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+height: auto;
+letter-spacing: normal;
+line-height: normal;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+overflow-wrap :break-word;
+text-align :left;
+text-size-adjust: 100%;
+text-transform: none;
+text-wrap: wrap;
+white-space-collapse: collapse;
+width: auto;
+display: block;
+}
+
+.rupee-products-sign{
+    box-sizing: border-box;
+    color: rgb(15, 17, 17);
+    display: inline;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 13px;
+    height: auto;
+    line-height: normal;
+    position: relative;
+    text-size-adjust: 100%;
+    left: -2px;
+    top: -6px;
+    width: auto;
+}
+.delete{
+    width: 18%;
+    height: 10%;
+    position: relative;
+    top: 44px;
+    left: 129px;
+    z-index: 10;
+}
+.update{
+    width: 18%;
+    height: 11%;
+    position: relative;
+    top: 44px;
+    left: 136px;
+    z-index: 10;
+}

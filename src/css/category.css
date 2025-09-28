@@ -1,0 +1,60 @@
+/* General container style for the category */
+.category-container {
+    display: inline-block;
+    width: 20%;
+    max-width: 300px;
+    height: 240px;
+    margin: 10px;
+    /* padding: 15px; */
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:white;
+    text-align: start;
+    transition: transform 0.2s ease;
+    position: relative;
+}
+
+.category-container:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive Grid Layout */
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust spacing between divs */
+    gap: 40px; /* Optional: Adds space between boxes */
+    padding: 20px;
+}
+
+/* Styling for the image inside the category-container */
+.category-display-image {
+    width: 100%;
+    height: 180px;
+    /* border-radius: 5px; */
+    margin-top: 40px;
+    border-radius: 45% 45% 0% 0%;
+}
+
+/* Title styling */
+.category-display-title {
+    position: relative;
+    left: 5%;
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .category-container {
+        max-width: 45%; /* Show two containers per row on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .category-container {
+        max-width: 100%; /* Show one container per row on mobile devices */
+    }
+}
